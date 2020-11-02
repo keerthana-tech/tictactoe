@@ -67,8 +67,8 @@ const App = () => {
             itemArray[2]!=="empty"){
               setWinMessage(`${itemArray[2]} wins ` )
             }
-          else if(itemArray[0] && itemArray[1]&& itemArray[2] && itemArray[3] &&
-            itemArray[4] && itemArray[5] &&  itemArray[6] && itemArray[7] && itemArray[8] !=="empty"){
+          else if(itemArray[0]!=="empty" && itemArray[1]!=="empty" && itemArray[2]!=="empty" && itemArray[3]!=="empty" &&
+            itemArray[4]!=="empty" && itemArray[5]!=="empty" &&  itemArray[6]!=="empty"&& itemArray[7]!=="empty" && itemArray[8] !=="empty"){
               setWinMessage("game tie")
             }
         
