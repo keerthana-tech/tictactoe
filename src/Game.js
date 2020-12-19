@@ -33,7 +33,7 @@ const Game = ({playerOne, playerTwo, isCross, setIsCross, firstPlayer, setFirstP
     if(itemArray[0]!=="empty" &&
       itemArray[0]===itemArray[1] &&
       itemArray[0]===itemArray[2]){
-        {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+        (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
         
 
         
@@ -43,40 +43,40 @@ const Game = ({playerOne, playerTwo, isCross, setIsCross, firstPlayer, setFirstP
         itemArray[3]===itemArray[4]&&
         itemArray[3]===itemArray[5]
       ){
-          {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+          (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
         }
       else if(itemArray[6]!=="empty"&&
       itemArray[6]===itemArray[7]&&
       itemArray[6]===itemArray[8]){
-          {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+          (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
         }
         else if(itemArray[0]!=="empty" &&
         itemArray[0]===itemArray[3]&&
         itemArray[0]===itemArray[6]){
-            {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+            (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
         }
           else if(itemArray[1]!=="empty"&&
           itemArray[1]===itemArray[4]&&
           itemArray[1]===itemArray[7]
           ){
-            {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+            (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
          }
          else if(
           itemArray[2]!=="empty"&&
           itemArray[2]===itemArray[5]&&
           itemArray[2]===itemArray[8]
          ){
-            {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+            (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
           }
           else if(itemArray[0]!=="empty"&&
           itemArray[0]=== itemArray[4]&&
           itemArray[0]=== itemArray[8]){
-              {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+              (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
             }
           else if (itemArray[2]!=="empty"&&
           itemArray[2]===itemArray[4]&&
           itemArray[2]===itemArray[6]){
-              {(firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)}
+              (firstPlayer===true) ? setWinMessage(`${playerOne} wins `):setWinMessage(`${playerTwo} wins `)
             }
           else if(itemArray[0]!=="empty"&& itemArray[1 ]!=="empty"&& itemArray[2]!=="empty" && itemArray[3]!=="empty" && 
           itemArray[4 ]!=="empty"&& itemArray[5]!=="empty" && itemArray[6]!=="empty" && itemArray[8]!=="empty"&&itemArray[7]  !=="empty"){
